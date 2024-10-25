@@ -16,8 +16,6 @@ int main(){
         printf("%c", nomeInvertido[j]);
     }
 
-   // }
-
     return 0;
 
 }
