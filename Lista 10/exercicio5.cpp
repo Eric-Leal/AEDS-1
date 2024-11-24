@@ -23,7 +23,7 @@ public:
             pessoasPresentes++;
             cout << "Uma pessoa entrou no elevador. Pessoas no elevador: " << pessoasPresentes << endl;
         } else {
-            cout << "Capacidade máxima atingida! Não é possível adicionar mais pessoas." << endl;
+            cout << "Capacidade maxima atingida." << endl;
         }
     }
 
@@ -32,7 +32,7 @@ public:
             pessoasPresentes--;
             cout << "Uma pessoa saiu do elevador. Pessoas no elevador: " << pessoasPresentes << endl;
         } else {
-            cout << "O elevador está vazio! Não há ninguém para sair." << endl;
+            cout << "O elevador esta vazio." << endl;
         }
     }
 
@@ -41,7 +41,7 @@ public:
             andarAtual++;
             cout << "Elevador subiu para o andar " << andarAtual << endl;
         } else {
-            cout << "O elevador já está no último andar!" << endl;
+            cout << "O elevador ja esta no ultimo andar." << endl;
         }
     }
 
@@ -50,7 +50,7 @@ public:
             andarAtual--;
             cout << "Elevador desceu para o andar " << andarAtual << endl;
         } else {
-            cout << "O elevador já está no térreo!" << endl;
+            cout << "O elevador ja esta no Terreo." << endl;
         }
     }
 

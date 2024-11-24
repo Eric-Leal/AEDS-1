@@ -12,9 +12,9 @@ public:
     void depositar(float valor) {
         if (valor > 0) {
             saldo += valor;
-            cout << "Depósito de R$ " << valor << " realizado com sucesso!" << endl;
+            cout << "Deposito de R$ " << valor << " realizado com sucesso" << endl;
         } else {
-            cout << "Valor de depósito inválido!" << endl;
+            cout << "Valor de deposito invalido" << endl;
         }
     }
 
@@ -24,10 +24,10 @@ public:
 
         if (valor > 0 && saldo >= total) {
             saldo -= total;
-            cout << "Saque de R$ " << valor << " realizado com sucesso!" << endl;
-            cout << "Taxa de operação de R$ " << taxa << " foi debitada." << endl;
+            cout << "Saque de R$ " << valor << " realizado com sucesso." << endl;
+            cout << "Taxa de operacao de R$ " << taxa << " foi debitada." << endl;
         } else {
-            cout << "Saldo insuficiente ou valor de saque inválido!" << endl;
+            cout << "Saldo insuficiente ou valor de saque invalido" << endl;
         }
     }
 
