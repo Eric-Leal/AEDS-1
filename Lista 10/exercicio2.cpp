@@ -19,6 +19,7 @@ public:
 
 int main(){
     vector<loja>Loja;
+    
     string loja, telefone;
     int preco = 0;
     int precomin, precomax;
