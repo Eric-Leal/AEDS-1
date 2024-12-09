@@ -26,7 +26,7 @@ public:
 };
 
 int main(){
-    // Para usar sem ponteiro, basta tirar o asterisco depois de loja, e trocar a '->' por '.' exemplo: produtos[i]->imprimeDados(); passa a ser produtos[i].imprimeDados();,
+    // Para usar sem ponteiro, basta tirar o asterisco depois de loja,remover o new e trocar a '->' por '.' exemplo: produtos[i]->imprimeDados(); passa a ser produtos[i].imprimeDados();,
     // alem disso no construtor deve colocar um vlaor vazio para funcionar exemplo:  Loja(string nome = "", string telefone = "", int preco = ""){
     Loja* produtos[3];
     string nome, telefone;
